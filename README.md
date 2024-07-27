@@ -11,13 +11,19 @@ A simple express template for setting up the environment for building the expres
 # Usage
 
 ## Clone the repository 
-` git clone https://github.com/nimishgj/express-init.git `
+```
+git clone https://github.com/nimishgj/express-init.git
+```
 
 ## Install Dependencies
-` npm i `
+```
+npm i
+ ```
 
 ## Start the Application
-` docker-compose up `
+``` 
+docker-compose up
+ ```
 
 The application is configured to run on port `3000` and Mongo-express UI will be accessiable from `http://localhost:8080`
 
