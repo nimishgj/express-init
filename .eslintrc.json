@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "script"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "parserOptions": {
+        "sourceType": "commonjs"
+      }
+    }
+  ],
+  "globals": {
+    "window": "readonly",
+    "document": "readonly"
+  },
+  "rules": {
+    // Custom rules can be added here
+    "no-console": "warn",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"]
+  }
+}
